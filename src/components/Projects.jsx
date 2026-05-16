@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import hrmis1 from "../assets/projects/hrmis1.jpg";
 import hrmis2 from "../assets/projects/hrmis2.PNG";
 import school1 from "../assets/projects/school1.jpg";
-import stationary1 from "../assets/projects/stationary1.png";
+import stationary1 from "../assets/projects/stationary1.PNg";
 
 const Projects = () => {
 
