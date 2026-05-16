@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: radial-gradient(circle at top, #0b1220, #050816);
+  color: #e5e7eb;
+  overflow-x: hidden;
+}
+
+/* glowing background blobs */
+.bg-glow {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  filter: blur(120px);
+  opacity: 0.25;
+  z-index: -1;
+}
+
+.glow1 {
+  background: cyan;
+  top: -100px;
+  left: -100px;
+}
+
+.glow2 {
+  background: purple;
+  bottom: -100px;
+  right: -100px;
+}
