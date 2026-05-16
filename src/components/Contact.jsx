@@ -26,15 +26,16 @@ const Contact = () => {
     setLoading(true);
     setStatus("");
 
-      emailjs.send(
-     "service_3jv0jml","template_kzl05hq",
-      {
-        from_name: form.name,
-        from_email: form.email,
-        message: form.message
-      },
-      "fBg69xQCNqERJ-0uh"
-    )
+     emailjs.send(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  {
+    from_name: form.name,
+    from_email: form.email,
+    message: form.message,
+  },
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
     .then(() => {
 
       setLoading(false);
