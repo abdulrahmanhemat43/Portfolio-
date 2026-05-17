@@ -7,10 +7,27 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import hrmis1 from "../assets/projects/hrmis1.jpg";
-import hrmis2 from "../assets/projects/hrmis2.PNG";
-import school1 from "../assets/projects/school1.jpg";
-import stationary1 from "../assets/projects/stationary1.PNG";
+import hrmis1 from "../assets/projects/Hrmis1.jpg";
+import hrmis2 from "../assets/projects/Hrmis2.jpg";
+import hrmis4 from "../assets/projects/Hrmis4.jpg";
+import hrmis5 from "../assets/projects/Hrmis5.jpg";
+import hrmis6 from "../assets/projects/Hrmis6.jpg";
+
+import sc1 from "../assets/projects/Sc1.PNG";
+import sc2 from "../assets/projects/Sc2.PNG";
+import sc3 from "../assets/projects/Sc3.PNG";
+import sc4 from "../assets/projects/Sc4.PNG";
+import sc5 from "../assets/projects/Sc5.PNG";
+import sc6 from "../assets/projects/Sc6.PNG";
+
+import st1 from "../assets/projects/St1.PNG";
+import st2 from "../assets/projects/St2.PNG";
+import st3 from "../assets/projects/St3.PNG";
+import st4 from "../assets/projects/St4.PNG";
+
+
+
+
 
 const projects = [
   {
@@ -18,7 +35,7 @@ const projects = [
     title: "HRMIS System",
     description:
       "Human Resource Information Management System for Nangarhar University, designed to manage staff records, HR workflows, and institutional reporting.",
-    images: [hrmis1, hrmis2],
+    images: [hrmis1, hrmis2,hrmis4,hrmis5,hrmis6],
     tags: ["HR Management", "Database", "Reports"],
   },
   {
@@ -26,7 +43,7 @@ const projects = [
     title: "School Management System",
     description:
       "Web-based management system for students, teachers, exams, classes, attendance, and academic reports.",
-    images: [school1],
+    images: [sc1,sc2,sc3,sc4,sc5,sc6],
     tags: ["Web App", "Education", "Management"],
   },
   {
@@ -34,7 +51,7 @@ const projects = [
     title: "Stationery Desktop App",
     description:
       "Desktop application for inventory, sales, stock tracking, and daily business management using C#.",
-    images: [stationary1],
+    images: [st1,st2,st3,st4],
     tags: ["C#", "Desktop App", "Inventory"],
   },
 ];
