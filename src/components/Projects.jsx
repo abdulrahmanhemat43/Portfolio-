@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import hrmis1 from "../assets/projects/Hrmis1.jpg";
+import hrmis1 from "../assets/projects/h1.jpg";
 import hrmis2 from "../assets/projects/Hrmis2.jpg";
 import hrmis4 from "../assets/projects/Hrmis4.jpg";
 import hrmis5 from "../assets/projects/Hrmis5.jpg";
